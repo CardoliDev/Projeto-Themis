@@ -1,0 +1,213 @@
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #10142c;
+    --terciary-color: #188cfc;
+}
+
+body {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+#content-head {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin: 2rem 2rem 1.5rem 8rem;
+}
+
+.menu {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.973rem;
+    border: 1px transparent solid;
+    padding: 0.826rem;
+    margin: 3rem;
+}
+
+#contato {
+    border: 1px #188cfc solid;
+    border-radius: 2rem;
+    background-color: var(--terciary-color);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#img-crianca {
+    height: 55rem;
+}
+
+#main-content {
+    position: relative;
+    margin: 2rem 2rem 1.5rem 0;
+}
+
+h1 {
+    position: absolute; 
+    top: -53rem; 
+    left: 54.5%; 
+    width: 26rem;
+    font-size: 3rem;
+}
+
+#main-content p {
+    position: absolute; 
+    top: -33rem; 
+    left: 54.5%; 
+    font-size: 1.2rem;
+    width: 36rem;
+}
+
+section {
+    position: relative;
+}
+
+#highlights {
+    display: flex;
+    margin: 3rem;
+    position: absolute;
+    top: -16rem;
+    left: 23.5rem;
+    width: 70rem;
+    backdrop-filter: blur(3rem); 
+    background-color: rgba(255, 255, 255, 0.1); 
+    align-items: center;
+}
+
+#lapis-de-cor {
+    height: 12.5rem;
+}
+
+#highlight-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    margin-left: 1.3rem;
+    font-weight: 300;
+}
+
+#leia-mais {
+    border: none;
+    background-color: transparent;
+    color: var(--secondary-color);
+    text-align: left;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/*style da pagina de vagas */ 
+
+.titulo {
+    height: 50px;
+    border: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-nav .text nav-text{
+   color:#ccc;
+   background-color: #ccc;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.search-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #c43d3d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.vagas-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.vaga {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+.vaga img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.vaga-info {
+    flex-grow: 1;
+}
+
+.vaga-info h2 {
+    color: #000;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.vaga-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.vaga-acesso {
+    text-align: right;
+}
+
+.vaga-acesso p {
+    margin: 0;
+    font-size: 12px;
+    color: #c43d3d;
+}
+
+.vaga-acesso button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+
+.header-top .logo{
+    width: 90px;
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
